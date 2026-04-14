@@ -61,7 +61,7 @@ def save_model(model, file_path: str):
 def main():
     try:
         params_path="params.yaml"
-        data_path="./data/processed/train_processed_data.csv"
+        data_path="./data/processed/train_processed_data_mean.csv"
         model_name="models/model.pkl"
         n_estimators=load_params(params_path)
         train_data=load_data(data_path)

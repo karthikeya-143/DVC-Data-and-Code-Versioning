@@ -83,7 +83,7 @@ def save_metrics(metrics, file_path: str):
     
 def main():
     try:
-        test_data_path="./data/processed/test_processed_data.csv"
+        test_data_path="./data/processed/test_processed_data_mean.csv"
         model_path="models/model.pkl"
         metrics_path="reports/metrics.json"
         test_data=load_data(test_data_path)
